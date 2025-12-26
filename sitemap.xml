@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://catfishheads.blogspot.com/</loc>
+  </url>
+  <url>
+    <loc>https://catfishheads.blogspot.com/about</loc>
+  </url>
+  <url>
+    <loc>https://catfishheads.blogspot.com/contact</loc>
+  </url>
+  <!-- Example blog post URL -->
+  <url>
+    <loc>https://catfishheads.blogspot.com/2024/04/example-post-title.html</loc>
+  </url>
+</urlset>
