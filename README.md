@@ -65,9 +65,18 @@ Welcome to the AI proxy for the Catfish Heads blog! This service powers SEO-driv
   curl -X POST /api/generate-post -d '{"topic": "catfish habitat"}'
   ```
 - **Rewrite or summarize an existing page:**
-  ```bash
-  curl -X POST /api/ai-enhance -d '{"pageId": "about-me"}'
-  ```
+ ```bash
+ curl -X POST /api/ai-enhance -d '{"pageId": "about-me"}'
+ ```
+
+## CLI
+
+- Requires Node.js 20+ (built-in `fetch` support).
+- Install dependencies: `npm install`
+- View help: `npm test` (runs `jomoto --help`)
+- Generate a post: `npx jomoto generate "catfish habitat" --keywords "catfish,river"` (defaults to `http://localhost:3000`; override with `--base-url` or `JOMOTO_BASE_URL`)
+- Enhance a page: `npx jomoto enhance about-me --prompt "Keep the playful tone"`
+- Inspect configured proxy target: `npx jomoto inspect`
 
 ## License
 MIT License

@@ -1,0 +1,34 @@
+{
+  "name": "jomoto",
+  "version": "1.0.0",
+  "description": "Command line access to the Catfish Heads AI proxy for secure content operations.",
+  "main": "bin/jomoto.js",
+  "scripts": {
+    "test": "node ./bin/jomoto.js --help"
+  },
+  "bin": {
+    "jomoto": "bin/jomoto.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joe345-str/Jomoto.git"
+  },
+  "keywords": [
+    "cli",
+    "blog",
+    "ai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "bugs": {
+    "url": "https://github.com/joe345-str/Jomoto/issues"
+  },
+  "homepage": "https://github.com/joe345-str/Jomoto#readme",
+  "dependencies": {
+    "commander": "^14.0.3"
+  }
+}
